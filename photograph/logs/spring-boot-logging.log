@@ -5771,3 +5771,14 @@ Identify and stop the process that's listening on port 8081 or configure this ap
 2018-12-23 09:00:17.152  INFO 8300 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-12-23 09:00:17.213  INFO 8300 --- [main] o.e.j.s.AbstractConnector                : Started ServerConnector@759de304{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
 2018-12-23 09:00:17.227  INFO 8300 --- [main] c.j.p.PhotographApplication              : Started PhotographApplication in 6.304 seconds (JVM running for 7.046)
+2019-03-30 20:01:23.678  INFO 2739 --- [main] c.j.p.PhotographApplication              : Starting PhotographApplication on vivi with PID 2739 (/home/gj/gitworkspace/chx/chx/photograph/target/classes started by gj in /home/gj/gitworkspace/chx/chx/photograph)
+2019-03-30 20:01:23.682  INFO 2739 --- [main] c.j.p.PhotographApplication              : No active profile set, falling back to default profiles: default
+2019-03-30 20:01:26.081  INFO 2739 --- [main] o.e.j.u.log                              : Logging initialized @4075ms
+2019-03-30 20:01:26.184  INFO 2739 --- [main] o.e.j.s.Server                           : jetty-9.3.19.v20170502
+2019-03-30 20:01:26.315  INFO 2739 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2019-03-30 20:01:26.734  INFO 2739 --- [main] o.e.j.s.h.ContextHandler                 : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@68577ba8{/,[file:///tmp/jetty-docbase.721806075954449075.8081/],AVAILABLE}
+2019-03-30 20:01:26.734  INFO 2739 --- [main] o.e.j.s.Server                           : Started @4729ms
+2019-03-30 20:01:27.839  WARN 2739 --- [main] o.t.t.TemplateMode                       : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-03-30 20:01:28.352  INFO 2739 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-30 20:01:28.389  INFO 2739 --- [main] o.e.j.s.AbstractConnector                : Started ServerConnector@78422efb{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2019-03-30 20:01:28.401  INFO 2739 --- [main] c.j.p.PhotographApplication              : Started PhotographApplication in 5.293 seconds (JVM running for 6.396)
