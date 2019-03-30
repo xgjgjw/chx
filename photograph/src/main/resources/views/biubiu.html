@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>jQuery特效百度搜索</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: hidden;
+}
+</style>
+<link href="../static/jquerybaidu/css/font.css" rel="stylesheet">
+<link rel="stylesheet" href="../static/jquerybaidu/css/style.css">
+<link rel="stylesheet" href="../static/jquerybaidu/css/style-search.css" media="screen" type="text/css" />
+<script src="../static/jquery-1.10.2/jquery.js"></script>
+<script src="../static/jquery-1.10.2/jquery.min.js"></script>
+<script>
+	function c(){
+	location.href="http://www.baidu.com/s?wd="+$("#input").val();
+	}
+</script>
+<style type="text/css">
+	div {
+		text-align: center;
+		text-shadow: red;
+		size: 100px;
+	}
+</style>
+</head>
+
+<body>
+	<canvas id="canvas" width="1280" height="1024"> 您的浏览器不支持canvas标签，请您更换浏览器 </canvas>
+	<script src="../static/jquerybaidu/js/word.js"></script>
+		<p id="offscreen-text" class="offscreen-text"></p>
+		<p id="text" class="text"></p>
+		<!-- <div id="d" class="webdesigntuts-workshop"> 
+			<span>
+	  			<input class="input" id="input" type="search" placeholder="请输入您要搜索的内容"/>
+	  			<button onclick="c();">百度一下</button>
+	  		</span> 
+	  	</div> -->
+	  	<div id="logion">login</div>
+	<script  src='../static/jquerybaidu/js/index.js'></script>
+</body>
+</html>
