@@ -22,7 +22,8 @@ public class UserController {
 	}
 	@RequestMapping("/")
     public String welcome(){
-
+		
+		//this is add add;
        // return "biubiu";
 		 return "main";
     }
