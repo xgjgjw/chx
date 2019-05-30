@@ -22,12 +22,6 @@ public class UserController {
 	}
 	@RequestMapping("/")
     public String welcome(){
-
-		//this 11111 eeee8ee;
-
-		//this 2 aaadd ee11ee8ee;
-		//
-       // return "biubiu";
 		 return "main";
     }
 }
