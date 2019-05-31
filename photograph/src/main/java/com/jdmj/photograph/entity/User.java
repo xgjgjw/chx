@@ -1,6 +1,7 @@
 package com.jdmj.photograph.entity;
 
 public class User {
+	public  static final String Table = "user";
 	private String name;
 	private String sex;
 	private Integer age;
